@@ -22,7 +22,7 @@ display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto;
 
 
 #header { 
-border: 2px #a2a2a2 solid;
+
  }
 
 
@@ -41,9 +41,10 @@ float: left;
 
 #sidebar-middle { 
 width: 23%;
+margin-left: 10%;
+margin-right: 10%;
 border: 2px #a2a2a2 solid; 
 float: right; 
-display: inline;
 }
 
 #sidebar-right { 
@@ -72,16 +73,17 @@ font-size: 11pt;
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding-top: 5px;
 }
 
 li {
+    margin-left: 75px;
+    margin-right: 75px;
     display: inline;
 }
 
 a:hover, a:active {
-    background-color: #f0f0f0;
+    background-color: #484848;
 }
 
 a:link, a:visited {
