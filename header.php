@@ -2,8 +2,9 @@
 <head>
 <title>Tutorial theme</title>
 
+<meta name=“viewport” content=“width=device-width” />
+<meta charset="UTF-8">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
 </head>
