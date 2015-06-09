@@ -6,7 +6,7 @@
 
 <div id="logo">
 
-<a href="default.asp"> <img src="wp-content/themes/custom/images/logo.png" alt="logo" width="200" height="225"> </a>
+<a href="default.asp" class="logo"> <img src="wp-content/themes/custom/images/logo.png" alt="logo" width="200" height="225"> </a>
 
 </div>
 

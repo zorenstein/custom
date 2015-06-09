@@ -28,8 +28,11 @@ display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto;
 
 #content { 
 width: 100%; 
+height: 60%;
 border: 2px #a2a2a2 solid; 
-float: left; 
+float: left;
+background: url("images/food.jpg") no-repeat;;
+background-size: cover;
 }
 
 
@@ -42,7 +45,7 @@ float: left;
 #sidebar-middle { 
 width: 23%;
 margin-left: 10%;
-margin-right: 10%;
+margin-right: 15%;
 border: 2px #a2a2a2 solid; 
 float: right; 
 }
@@ -63,11 +66,9 @@ clear: both;
 border: 2px #a2a2a2 solid; 
 }
 
-
-.title { 
-font-size: 11pt; 
+#logo {
+ float: left;
  }
- 
 
 /* Nav */
 
