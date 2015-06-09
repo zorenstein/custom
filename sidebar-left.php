@@ -1,6 +1,7 @@
-<div id="sidebar">
+<img src="wp-content/themes/custom/images/garden.png" alt="garden">
 
-<img src="wp-content/themes/custom/images/garden.jpg" alt="logo">
+
+<div id="sidebar-content">
 
 <h2> Our Garden </h2>
 
