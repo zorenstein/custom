@@ -14,6 +14,7 @@
 
 <ul>
   <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">Blog</a></li>
   <li><a href="news.asp">About Us</a></li>
   <li><a href="contact.asp">Menu</a></li>
   <li><a href="about.asp">Contact Us</a></li>
