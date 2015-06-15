@@ -111,9 +111,15 @@ padding-left: 3px;
 padding-right: 3px;
 }
 
+#contactlogo {
+
+padding-right: 33%;
+
+}
+
 #contact_us {
-
-
+width: 100%;
+margin: 0 auto;
 
 }
 
