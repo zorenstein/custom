@@ -12,13 +12,21 @@
 <div id="wrapper">
 <div id="header">
 
+<!-- 
 <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">Blog</a></li>
-  <li><a href="news.asp">About Us</a></li>
-  <li><a href="contact.asp">Menu</a></li>
-  <li><a href="about.asp">Contact Us</a></li>
-  <li><a href="about.asp">(187)-555-9876</a></li>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Blog</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Menu</a></li>
+  <li><a href="#">Contact Us</a></li>
+  <li><a href="#">(187)-555-9876</a></li>
 </ul>
+ -->
+ 
+ <?php
+ 
+ wp_nav_menu( array (
+ 	'theme_location' => 'primary',
+ )); ?>
 
 </div>
