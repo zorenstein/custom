@@ -24,7 +24,10 @@
 
 </div>
 
+<h1> About Us </h1>
 
+
+<div id="sidebars">
 
 <div id="sidebar-right">
 
@@ -32,17 +35,64 @@
 
 </div>
 
+
+
 <div id="sidebar-middle">
 
 <?php get_sidebar('middle'); ?>
 
 </div>
 
+
+
+
 <div id="sidebar-left">
 
 <?php get_sidebar('left'); ?>
 
 </div>
+
+</div>
+
+
+<div class="title_menu"> <h1> Menu </h1> </div>
+
+
+
+<div id="menu_right">
+
+<?php get_sidebar('menu_right'); ?>
+
+</div>
+
+
+
+
+<div id="menu_middle">
+
+<?php get_sidebar('menu_middle'); ?>
+
+</div>
+
+
+
+
+<div id="menu_left">
+
+<?php get_sidebar('menu_left'); ?>
+
+</div>
+
+
+
+<div id="contact_us">
+
+<?php get_sidebar('contact_us'); ?>
+
+</div>
+
+
+
 
 
 </div>
