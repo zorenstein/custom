@@ -72,7 +72,7 @@ padding-right: 5%;
 width: 33%; 
 float: left; 
 margin-bottom: 20px;
-background: #000;
+background: #402523;
 padding-top: 15px;
 }
 
@@ -80,7 +80,7 @@ padding-top: 15px;
 width: 33%; 
 float: right; 
 margin-bottom: 20px;
-background: #000;
+background: #402523;
 padding-top: 15px;
 margin-left: .15%;
 margin-right: .5%;
@@ -90,7 +90,7 @@ margin-right: .5%;
 width: 33%;  
 float: right; 
 margin-bottom: 20px;
-background: #000;
+background: #402523;
 padding-top: 15px;
 }
 
@@ -141,7 +141,7 @@ clear: both;
 
 .title_menu {
 width: 100%;
-background-color: black;
+background-color: #009966;
 clear: both;
 }
 
@@ -154,7 +154,7 @@ clear: both;
 
 ul {
     list-style-type: none;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 li {

@@ -4,12 +4,12 @@
 
 <h2> Contact Us </h2>
 
-<p>Hours: </p>
+<p>Hours: Monday-Sunday; 11am-9pm </p>
 
-<p>Phone: </p>
+<p>Phone: (187)-555-9876</p>
 
-<p>Address: </p>
+<p>Address: 1 Garden Way // Wilmington NC // 28401</p>
 
-<p>Email: </p>
+<p>Email: info@thegarden.com</p>
 
 </div>
