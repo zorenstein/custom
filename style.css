@@ -26,6 +26,7 @@ display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto;
  }
  
 
+
 h1 {
 padding-top: 5px;
 padding-bottom: 5px;
@@ -58,7 +59,7 @@ margin-left: 10%;
 margin-right: 11%; 
 float: right; 
 margin-bottom: 20px;
-top: 50px;
+
 }
 
 #sidebar-right { 
@@ -111,17 +112,18 @@ padding-left: 3px;
 padding-right: 3px;
 }
 
-#contactlogo {
 
-padding-right: 33%;
-
-}
 
 #contact_us {
 width: 100%;
-margin: 0 auto;
-
+overflow: hidden;
+background-color: #009966;
+padding: 10px;
+position: relative;
+bottom: 23px;
 }
+
+
 
 
 #desserticon {
@@ -141,8 +143,11 @@ clear: both;
 
 .title_menu {
 width: 100%;
-background-color: #009966;
+background-color: #402523;
 clear: both;
+position: relative;
+top: 28px;
+
 }
 
 #logo {

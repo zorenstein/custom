@@ -1,8 +1,10 @@
+<div id="contact_info">
+
 <img src="wp-content/themes/custom/images/contact.png" alt="contact" id="contactlogo">
 
-<div id="sidebar-content">
 
 <h2> Contact Us </h2>
+
 
 <p>Hours: Monday-Sunday; 11am-9pm </p>
 
