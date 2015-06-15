@@ -21,6 +21,12 @@ add_action('init', 'arphabet_register_nav_locations');
 
 function arphabet_register_nav_locations()
 {
-	register_nav_menu('header-menu',__( 'Header Menu' ));
+	register_nav_menu( 'primary', __( 'Primary Menu', 'theme-slug' ) );
 }
+
 ?>
+
+
+
+
+
