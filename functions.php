@@ -24,9 +24,11 @@ function arphabet_register_nav_locations()
 	register_nav_menu( 'primary', __( 'Primary Menu', 'theme-slug' ) );
 }
 
-?>
+add_action('wp_enqueue_scripts', 'arphabet_enqueue_styles');
+function arphabet_enqueue_styles()
+{
+  wp_dequeue_style('custom');
 
-
-
-
+  wp_enqueue_style('styles', get_stylesheet_directory_uri() . '/assets/css/main.css');
+}
 
