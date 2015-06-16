@@ -18,7 +18,7 @@ gulp.task('watch', function() {
       proxy: 'test-site.dev'
     });
 
-    gulp.watch('./assets/sass/**/*.{sass,scss}', ['sass', 'sass:dist']);
+    gulp.watch('./assets/sass/**/*.{sass,scss}', ['sass']);
     gulp.watch('./assets/css/**/*.css').on('change', browserSync.reload);
 });
 
