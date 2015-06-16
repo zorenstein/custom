@@ -1,0 +1,134 @@
+body {
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: #333333;
+  /* Old browsers */
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(36%, #333333), color-stop(100%, black));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #333333 36%, black 100%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: -webkit-linear-gradient(315deg, #333333 36%, black 100%);
+  background: linear-gradient(135deg, #333333 36%, black 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#000000',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+/* #wrapper {
+display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto;
+}
+*/
+h1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 42px; }
+
+#content {
+  width: 100%;
+  height: 70%;
+  float: left;
+  background: url("/wp-content/themes/custom/images/food.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 20px; }
+
+#sidebar-left {
+  width: 23%;
+  float: left;
+  padding-left: 5%; }
+
+#sidebar-middle {
+  width: 23%;
+  margin-left: 10%;
+  margin-right: 11%;
+  float: right;
+  margin-bottom: 20px; }
+
+#sidebar-right {
+  width: 23%;
+  float: right;
+  margin-bottom: 20px;
+  padding-right: 5%; }
+
+#menu_left {
+  width: 33%;
+  float: left;
+  margin-bottom: 20px;
+  background: #402523;
+  padding-top: 15px; }
+
+#menu_middle {
+  width: 33%;
+  float: right;
+  margin-bottom: 20px;
+  background: #402523;
+  padding-top: 15px;
+  margin-left: .15%;
+  margin-right: .5%; }
+
+#menu_right {
+  width: 33%;
+  float: right;
+  margin-bottom: 20px;
+  background: #402523;
+  padding-top: 15px; }
+
+.menuitem {
+  float: left;
+  padding-left: 13px; }
+
+.menuprice {
+  float: right;
+  padding-right: 13px; }
+
+.menuwrapper {
+  border-bottom: 1px dotted white;
+  overflow: hidden;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+#contact_us {
+  width: 100%;
+  overflow: hidden;
+  background-color: #009966;
+  padding: 10px;
+  position: relative;
+  bottom: 23px; }
+
+#desserticon {
+  margin-top: 10px; }
+
+#delimiter {
+  clear: both; }
+
+.title_menu {
+  width: 100%;
+  background-color: #402523;
+  clear: both;
+  position: relative;
+  top: 28px; }
+
+#logo {
+  float: left;
+  margin-left: 1%; }
+
+/* Nav */
+ul {
+  list-style-type: none;
+  padding-top: 10px; }
+
+li {
+  margin-left: 75px;
+  margin-right: 75px;
+  display: inline; }
+
+a:hover, a:active {
+  background-color: #484848; }
+
+a:link, a:visited {
+  color: #fff;
+  padding: 4px;
+  text-decoration: none; }

@@ -1,0 +1,12 @@
+{
+  "name": "forest-ave-vet",
+  "description": "Site for Forest Ave Veterinary Hospital",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.7.10",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-sass": "^2.0.1"
+  }
+}
