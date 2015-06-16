@@ -3,13 +3,9 @@ var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps   = require('gulp-sourcemaps');
-var watch  = require('gulp-watch');
-var rename = require('gulp-rename');
-var source     = require('vinyl-source-stream');
-var buffer     = require('vinyl-buffer');
+var browserSync = require('browser-sync').create();
 
 gulp.task('sass', function() {
-    // return sass('assets/sass/main.sass')
     return gulp.src('./assets/sass/main.scss')
         .pipe(plumber())
         .pipe(sass())
@@ -18,7 +14,12 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('assets/sass/**/*.{sass,scss}', ['sass', 'sass:dist']);
+    browserSync.init({
+      proxy: 'test-site.dev'
+    });
+
+    gulp.watch('./assets/sass/**/*.{sass,scss}', ['sass', 'sass:dist']);
+    gulp.watch('./assets/css/**/*.css').on('change', browserSync.reload);
 });
 
 gulp.task('dev', ['sass', 'watch']);

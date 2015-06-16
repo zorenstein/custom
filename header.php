@@ -4,15 +4,16 @@
 
 <meta name=“viewport” content=“width=device-width” />
 <meta charset="UTF-8">
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<?php wp_head(); ?>
 
 </head>
 <body>
 <div id="wrapper">
 <div id="header">
 
-<!-- 
+<!--
 <ul>
   <li><a href="#">Home</a></li>
   <li><a href="#">Blog</a></li>
@@ -22,9 +23,9 @@
   <li><a href="#">(187)-555-9876</a></li>
 </ul>
  -->
- 
+
  <?php
- 
+
  wp_nav_menu( array (
  	'theme_location' => 'primary',
  )); ?>
