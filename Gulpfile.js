@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var sass = require('gulp-ruby-sass');
+var sass = require('gulp-sass');
 var cssmin  = require('gulp-cssmin');
 var plumber = require('gulp-plumber');
 var autoprefixer = require('gulp-autoprefixer');
