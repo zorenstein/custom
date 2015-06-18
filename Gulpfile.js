@@ -19,6 +19,7 @@ gulp.task('watch', function() {
 
     gulp.watch('./assets/sass/**/*.{sass,scss}', ['sass']);
     gulp.watch('./assets/css/**/*.css').on('change', browserSync.reload);
+    gulp.watch('./**/*.php').on('change', browserSync.reload);
 });
 
 gulp.task('dev', ['sass', 'watch']);

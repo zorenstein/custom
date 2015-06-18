@@ -25,7 +25,9 @@
 
 </div>
 
-<h1> About Us </h1>
+
+
+<h1 class="title_menu"> About Us </h1>
 
 
 <div id="sidebars">

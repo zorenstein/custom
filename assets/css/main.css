@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  color: #fff;
+  color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   background: #333333;
   /* Old browsers */
@@ -91,7 +91,7 @@ h1 {
   padding-right: 3px; }
 
 #contact_us {
-  width: 100%;
+  width: 98.5%;
   overflow: hidden;
   background-color: #009966;
   padding: 10px;
@@ -111,12 +111,18 @@ h1 {
   position: relative;
   top: 28px; }
 
+.aboutus {
+  width: 100%;
+  clear: both;
+  position: relative; }
+
 #logo {
   float: left;
   margin-left: 1%; }
 
 /* Nav */
 ul {
+  float: right;
   list-style-type: none;
   padding-top: 10px; }
 
